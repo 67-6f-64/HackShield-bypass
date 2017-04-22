@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="hackshield">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="hackshield\crypto">
+      <UniqueIdentifier>{8c545525-6472-48a0-8421-5c483ff79f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hackshield\crypto\relink">
+      <UniqueIdentifier>{b86bb559-76d5-43b7-91f8-5926acc6e84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hackshield\types">
+      <UniqueIdentifier>{8a849688-edd5-4ded-9857-680c76762f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hackshield\definitions">
+      <UniqueIdentifier>{30278331-e9b7-4319-aa39-ee4a91037cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hackshield\hb subclasses">
+      <UniqueIdentifier>{44338c21-0aed-4d16-8460-fe2530053595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generic">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="files.cpp">
+      <Filter>hackshield</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>hackshield\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="aes.cpp">
+      <Filter>hackshield\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="relink.cpp">
+      <Filter>hackshield\crypto\relink</Filter>
+    </ClCompile>
+    <ClCompile Include="nkcs.cpp">
+      <Filter>hackshield\hb subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="crc_generator.cpp">
+      <Filter>hackshield\hb subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="heartbeat.cpp">
+      <Filter>hackshield</Filter>
+    </ClCompile>
+    <ClCompile Include="exports.cpp">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="codesection.cpp">
+      <Filter>hackshield\hb subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>hackshield</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.cpp">
+      <Filter>hackshield\types</Filter>
+    </ClCompile>
+    <ClCompile Include="defs.cpp">
+      <Filter>hackshield\definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>generic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="heartbeat.hpp">
+      <Filter>hackshield</Filter>
+    </ClInclude>
+    <ClInclude Include="files.hpp">
+      <Filter>hackshield</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.hpp">
+      <Filter>hackshield\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.hpp">
+      <Filter>hackshield\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="relink.hpp">
+      <Filter>hackshield\crypto\relink</Filter>
+    </ClInclude>
+    <ClInclude Include="nkcs.hpp">
+      <Filter>hackshield\hb subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="crc_generator.hpp">
+      <Filter>hackshield\hb subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="codesection.hpp">
+      <Filter>hackshield\hb subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="environment.hpp">
+      <Filter>hackshield</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer.hpp">
+      <Filter>hackshield\types</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.hpp">
+      <Filter>hackshield\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="standards.hpp">
+      <Filter>generic</Filter>
+    </ClInclude>
+    <ClInclude Include="output.hpp">
+      <Filter>generic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>generic</Filter>
+    </None>
+  </ItemGroup>
+</Project>

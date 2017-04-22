@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="hackshield">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gui\widgets">
+      <UniqueIdentifier>{b116a29e-5066-4afb-9755-47fb0bf2fdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{9583a73a-3266-4901-a17d-87c5a49f642e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generic">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>hackshield</Filter>
+    </ClCompile>
+    <ClCompile Include="update.cpp">
+      <Filter>hackshield</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="widget.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="listbox.cpp">
+      <Filter>gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="progressbar.cpp">
+      <Filter>gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_types.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="environment.hpp">
+      <Filter>hackshield</Filter>
+    </ClInclude>
+    <ClInclude Include="update.hpp">
+      <Filter>hackshield</Filter>
+    </ClInclude>
+    <ClInclude Include="window.hpp">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="widget.hpp">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="listbox.hpp">
+      <Filter>gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="progressbar.hpp">
+      <Filter>gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_types.hpp">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.hpp">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="standards.hpp">
+      <Filter>generic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

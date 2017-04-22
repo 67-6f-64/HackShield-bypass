@@ -1,0 +1,5 @@
+
+#define IDI_ICON_RED 9001
+#define IDI_ICON_BLUE 9002
+
+#define BMP_BACKGROUND 9003

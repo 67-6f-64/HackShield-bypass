@@ -1,0 +1,10 @@
+LIBRARY "ehsvc"
+
+EXPORTS
+	10=_AhnHS_ServiceDispatch				@10 PRIVATE
+
+	26=_AhnHS_SendHsLog						@26 PRIVATE
+	27=_AhnHS_VerifyProtectedFunction		@27 PRIVATE
+	28=_AhnHS_QueryPerformanceCounter		@28 PRIVATE
+	29=_AhnHS_QueryPerformanceFrequency		@29 PRIVATE
+	30=_AhnHS_GetTickCount					@30 PRIVATE
